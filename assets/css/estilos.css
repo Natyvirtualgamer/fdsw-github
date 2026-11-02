@@ -14,10 +14,18 @@ section {
 /* Hero Section */
 
 #Hero-Section {
-  background-image: url("../img/bg-hero.jpg");
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0)),
+    url("../img/bg-hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
+}
+
+/* Logo del menú */
+
+.navbar-brand img {
+  height: 28px;
+  width: auto;
 }
 
 /* Mis trabajos */
@@ -41,8 +49,8 @@ section {
     font-weight: 400;
   }
 
-  .navbar-brand{
-    width: 100px;
+  .navbar-brand img {
+    height: 22px;
   }
 
 }
