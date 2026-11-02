@@ -1,5 +1,14 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Raleway", sans-serif;
+}
+
+/* Evita que la barra fija tape el título al navegar por el menú */
+section {
+  scroll-margin-top: 90px;
 }
 
 /* Hero Section */

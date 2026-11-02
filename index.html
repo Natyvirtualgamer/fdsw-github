@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de Natalie Aliaga Vilugrón: Analista Programadora, estudiante de Ingeniería en Informática y profesional de soporte y desarrollo Odoo ERP.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
@@ -20,27 +21,29 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="assets/img/logo.png" class="img-fluid">
+            <a class="navbar-brand" href="#Hero-Section">
+                <img src="assets/img/logo.png" class="img-fluid" alt="Logo de Natalie Aliaga">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Mostrar u ocultar menú">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Acerca de mi</a>
+                        <a class="nav-link" href="#Acerca-de-mi">Acerca de mí</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Trabajos</a>
+                        <a class="nav-link" href="#Formacion">Formación</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#Mis-trabajos">Proyectos</a>
                     </li>
-
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contacto">Contacto</a>
+                    </li>
                 </ul>
-
             </div>
         </div>
     </nav>
@@ -52,14 +55,14 @@
                     Natalie Aliaga Vilugrón <br> Portafolio Web
                 </h1>
                 <p class="my-5">
-                    Soy Natalie Aliaga Vilugrón, Ténico Analista Programador estudiante de Ingeniera Informática.
-                    Actualmente me estoy formando en desarrollo web, Git, GitHub y soporte técnico.
-                    Mi objetivo es seguir creciendo profesionalmente en el área tecnológica, construir proyectos reales
-                    y alcanzar la independencia necesaria para conocer nuevas culturas viajando alrededor del mundo. <br>
+                    Soy Analista Programadora y estudiante de Ingeniería en Informática en INACAP Temuco.
+                    Trabajo en Tierra Nube en soporte técnico y desarrollo sobre Odoo ERP, con Python, XML y PostgreSQL.
+                    Mi objetivo es seguir creciendo como desarrolladora de software, con foco en tecnologías web,
+                    cloud, bases de datos y automatización. <br>
                 </p>
                 <div class="mb-5 pb-5">
-                    <button class="btn btn-lg btn-outline-info text-light me-4">Trabajos</button>
-                    <button class="btn btn-lg btn-info text-light">Contacto</button>
+                    <a href="#Mis-trabajos" class="btn btn-lg btn-outline-info text-light me-4">Proyectos</a>
+                    <a href="#Contacto" class="btn btn-lg btn-info text-light">Contacto</a>
                 </div>
             </div>
         </div>
@@ -68,50 +71,77 @@
 
     <section id="Acerca-de-mi" class="container text-center my-5">
 
-
-        <h2 class="display-3 fw-bold my-4">Acerca de mi</h2>
+        <h2 class="display-3 fw-bold my-4">Acerca de mí</h2>
 
         <p class="my-4">
-            Actualmente trabajo en soporte técnico para una plataforma web Odoo, donde he comenzado a desarrollar experiencia
-            resolviendo problemas, apoyando a usuarios y comprendiendo el funcionamiento de aplicaciones reales.
-            Estoy fortaleciendo mis conocimientos en desarrollo web, control de versiones con Git y GitHub,
-            con el objetivo de crecer profesionalmente en el área tecnológica.
+            Trabajo en Tierra Nube, donde combino soporte técnico y funcional con desarrollo sobre Odoo ERP:
+            diagnóstico de errores, desarrollo y personalización de módulos con Python y XML, consultas en PostgreSQL,
+            automatización de procesos, migraciones entre versiones y pruebas de software.
+            Mi formación en INACAP complementa esta experiencia con desarrollo web, bases de datos, Linux, redes,
+            análisis de datos, inteligencia artificial y una primera aproximación a servicios cloud con AWS.
         </p>
 
-
         <div class="row">
-            <div class="col-12 col-md-4">
-                <i class="fas fa-camera fa-3x my-3"></i>
-                <h3 class="my-3 fw-bold">Diseño Web</h3>
-                <p class="my-3">
-                    Diseño interfaces web simples, ordenadas y responsivas, cuidando la estructura visual,
-                    la distribución del contenido y la experiencia del usuario en distintos dispositivos.
-                </p>
-            </div>
-            <div class="col-12 col-md-4">
-                <i class="fas fa-bullhorn fa-3x my-3"></i>
-                <h3 class="my-3 fw-bold">Soporte Técnico</h3>
-                <p class="my-3">
-                    Experiencia apoyando a usuarios, revisando errores y entregando soluciones claras
-                    para mejorar el funcionamiento de plataformas web Odoo.
-            </div>
-            <div class="col-12 col-md-4">
-                <i class="far fa-map fa-3x my-3"></i>
+            <div class="col-12 col-md-6 col-lg-3">
+                <i class="fas fa-laptop-code fa-3x my-3"></i>
                 <h3 class="my-3 fw-bold">Desarrollo Web</h3>
                 <p class="my-3">
-                    Formación en HTML, CSS y herramientas de desarrollo para construir sitios web
+                    Formación en HTML, CSS y Bootstrap para construir sitios web
                     ordenados, responsivos y fáciles de mantener.
                 </p>
             </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <i class="fas fa-headset fa-3x my-3"></i>
+                <h3 class="my-3 fw-bold">Odoo ERP</h3>
+                <p class="my-3">
+                    Soporte técnico y desarrollo sobre Odoo: diagnóstico de errores, módulos con Python y XML,
+                    migraciones y pruebas.
+                </p>
             </div>
-            <div class="col-12 col-md-4">
-                <i class="far fa-map fa-3x my-3"></i>
+            <div class="col-12 col-md-6 col-lg-3">
+                <i class="fas fa-database fa-3x my-3"></i>
+                <h3 class="my-3 fw-bold">Bases de datos</h3>
+                <p class="my-3">
+                    Consultas SQL y análisis en PostgreSQL para investigar inconsistencias y
+                    apoyar el diagnóstico de sistemas.
+                </p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <i class="fab fa-git-alt fa-3x my-3"></i>
                 <h3 class="my-3 fw-bold">Git y GitHub</h3>
                 <p class="my-3">
                     Uso de control de versiones para registrar cambios, trabajar con repositorios
                     remotos y mantener un historial claro del proyecto.
                 </p>
             </div>
+        </div>
+    </section>
+
+    <section id="Formacion" class="container text-center my-5">
+
+        <h2 class="display-4 fw-bold my-4">Formación</h2>
+
+        <div class="row">
+            <div class="col-12 col-md-6 py-2">
+                <h3 class="fw-bold">Analista Programadora</h3>
+                <p class="mb-1">INACAP, sede Temuco</p>
+                <p class="text-muted">Formación técnica finalizada</p>
+                <p>
+                    Programación, desarrollo web con HTML, CSS y Bootstrap, control de versiones con Git y GitHub,
+                    y bases de datos.
+                </p>
+            </div>
+            <div class="col-12 col-md-6 py-2">
+                <h3 class="fw-bold">Ingeniería en Informática</h3>
+                <p class="mb-1">INACAP, sede Temuco</p>
+                <p class="text-muted">En curso</p>
+                <p>
+                    Desarrollo de software, bases de datos, análisis de datos, inteligencia artificial,
+                    seguridad de la información, gestión de servicios TI, redes, Linux, Docker y
+                    una primera experiencia académica con Amazon Web Services (AWS).
+                </p>
+            </div>
+        </div>
     </section>
 
     <section id="Mis-trabajos" class="my-5 p-5 bg-info">
@@ -120,47 +150,46 @@
 
         <div class="row">
             <div class="col-12 col-sm-4 py-2">
-                <div class="card">
+                <div class="card h-100">
                     <div class="image-top" style="background-image: url(assets/img/card-1.jpg)"></div>
                     <div class="card-body">
+                        <span class="badge bg-secondary mb-2">Proyecto académico</span>
                         <h5 class="card-title fw-bold">Portafolio Web Personal</h5>
                         <p class="card-text">
-                            Proyecto desarrollado con HTML, CSS y Bootstrap para presentar mi perfil,
-                            habilidades técnicas y experiencia inicial en el área de desarrollo web.
+                            Sitio responsivo desarrollado con HTML, CSS y Bootstrap para presentar mi perfil,
+                            formación y proyectos. El código está versionado con Git en GitHub.
                         </p>
-                        <button type="button" class="btn btn-outline-info">
-                            Ver más
-                        </button>
+                        <a href="https://github.com/Natyvirtualgamer/fdsw-github" class="btn btn-outline-info"
+                            target="_blank" rel="noopener noreferrer">
+                            Ver repositorio
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-sm-4 py-2">
-                <div class="card">
+                <div class="card h-100">
                     <div class="image-top" style="background-image: url(assets/img/card-2.jpg)"></div>
                     <div class="card-body">
+                        <span class="badge bg-secondary mb-2">Proyecto académico</span>
                         <h5 class="card-title fw-bold">Práctica con Git y GitHub</h5>
                         <p class="card-text">
-                             Uso de control de versiones para registrar cambios mediante commits,
+                            Uso de control de versiones para registrar cambios mediante commits,
                             trabajar con repositorios remotos y publicar avances del proyecto en GitHub.
                         </p>
-                        <button type="button" class="btn btn-outline-info">
-                            Ver más
-                        </button>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-sm-4 py-2">
-                <div class="card">
+                <div class="card h-100">
                     <div class="image-top" style="background-image: url(assets/img/card-3.jpg)"></div>
                     <div class="card-body">
-                        <h5 class="card-title fw-bold">Soporte Técnico Web Odoo</h5>
+                        <span class="badge bg-dark mb-2">Experiencia profesional</span>
+                        <h5 class="card-title fw-bold">Soporte y Desarrollo Odoo ERP</h5>
                         <p class="card-text">
-                             Experiencia inicial de un año a la fecha mayo 2026, apoyando a usuarios, revisando errores y comprendiendo
-                            el funcionamiento de plataformas web desde una mirada técnica y práctica desde la interfaz de usuario.
+                            Más de un año en Tierra Nube: diagnóstico y resolución de incidencias, desarrollo y
+                            personalización de módulos con Python y XML, consultas en PostgreSQL, automatización,
+                            migraciones y pruebas.
                         </p>
-                        <button type="button" class="btn btn-outline-info">
-                            Ver más
-                        </button>
                     </div>
                 </div>
             </div>
@@ -174,40 +203,45 @@
         <h2 class="display-4 fw-bold text-center my-4">Contáctame</h2>
 
         <p class="text-center my-4 d-none d-md-block">
-            Si deseas contactarme para oportunidades de práctica, colaboración o proyectos relacionados con desarrollo web,
-            soporte técnico o tecnología, puedes escribirme mediante el siguiente formulario.
+            Si deseas contactarme para colaborar, conversar sobre proyectos de desarrollo de software
+            o conocer más de mi trabajo, escríbeme por LinkedIn o revisa mi GitHub.
+        </p>
+
+        <p class="text-center fs-4 my-4">
+            <a href="https://www.linkedin.com/in/natalie-aliaga-vilugr%C3%B3n-5915962b6/" class="text-dark me-4"
+                target="_blank" rel="noopener noreferrer" aria-label="LinkedIn de Natalie Aliaga">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://github.com/Natyvirtualgamer" class="text-dark" target="_blank"
+                rel="noopener noreferrer" aria-label="GitHub de Natalie Aliaga">
+                <i class="fab fa-github"></i> GitHub
+            </a>
         </p>
 
         <form>
 
-
             <div class="form-group mb-4">
-                <label class="mb-2">Nombre</label>
-                <input class="form-control" placeholder="Nombre">
+                <label class="mb-2" for="nombre">Nombre</label>
+                <input id="nombre" class="form-control" placeholder="Nombre">
             </div>
 
             <div class="form-group mb-4">
-                <label class="mb-2">Correo electrónico</label>
-                <input class="form-control" placeholder="Correo electrónico" />
+                <label class="mb-2" for="correo">Correo electrónico</label>
+                <input id="correo" type="email" class="form-control" placeholder="Correo electrónico" />
             </div>
-
 
             <div class="form-group">
-                <label class="mb-2">Mensaje</label>
-                <textarea class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
+                <label class="mb-2" for="mensaje">Mensaje</label>
+                <textarea id="mensaje" class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
             </div>
 
             <div class="my-3 text-end">
-                <button class="btn btn-info text-light">Enviar</button>
+                <button type="button" class="btn btn-info text-light">Enviar</button>
             </div>
-
-
 
         </form>
 
     </section>
-
-
 
     <footer class="bg-dark text-center text-light p-4">
         <p class="mb-0">Natalie Aliaga 2026. Todos los derechos reservados.</p>
